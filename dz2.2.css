@@ -1,0 +1,28 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 70px;
+}
+li {
+    padding: 10px;
+    margin-bottom: 5px;
+}
+li:nth-child(even) {
+    background-color: #cce5ff;
+}
+li:nth-child(odd) {
+    background-color: #99ccff;
+}
+.completed {
+    background-color: #cccccc;
+    text-decoration: line-through; 
+}
+.completed::before {
+    text-decoration: none;
+    content: "❌";
+    margin-right: 5px;
+}
