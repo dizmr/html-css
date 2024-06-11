@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(60, 60, 60, 0.614);
+    background-image: url(https://soaps.sheknows.com/wp-content/uploads/2023/01/yellowjackets-antler-queen.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+div.main{
+    margin: 50px auto;
+    padding: 20px 40px;
+    max-width: 600px;
+    background-color: antiquewhite;
+}
+div.img{
+    text-align: center;
+}
+div.img img{
+    width: 90%;
+}
+h1{
+    color: rgb(212, 166, 0);
+    text-align: center;
+}
+h4{
+    font-weight: normal;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+b{
+    color: rgb(212, 166, 0);
+}
